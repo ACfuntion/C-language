@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+	int line = 0;
+	printf("开始敲代码\n");;
+	while (line < 100)
+	{
+		printf("代码:%d\n", line);
+		line++;
+	}
+	if (line >= 100)
+		printf("高级程序员");
+	return 0;
+}
