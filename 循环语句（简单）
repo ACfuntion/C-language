@@ -2,13 +2,13 @@
 int main()
 {
 	int line = 0;
-	printf("¿ªÊ¼ÇÃ´úÂë\n");;
+	printf("å¼€å§‹æ•²ä»£ç \n");;
 	while (line < 100)
 	{
-		printf("´úÂë:%d\n", line);
+		printf("ä»£ç :%d\n", line);
 		line++;
 	}
 	if (line >= 100)
-		printf("¸ß¼¶³ÌĞòÔ±");
+		printf("é«˜çº§ç¨‹åºå‘˜");
 	return 0;
 }
