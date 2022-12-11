@@ -12,6 +12,6 @@ int Max(int x, int y)
 	int num2 = 427;
 	int max = 0;
 	max = Max(num1, num2);
-	printf("最大值是:%d\n", max);
+	printf("脳卯麓贸脰碌脢脟:%d\n", max);
 	return 0;
 }
