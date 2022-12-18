@@ -1,6 +1,6 @@
 /*     使用strcpy函数前提
 #define _CRT_SECURE_NO_WARNINGS
-*#include<string.h>    */
+#include<string.h>    */
 #include <stdio.h>
 struct Book//创建一个结构体类型
 {
@@ -20,6 +20,6 @@ int main()
 	printf("价格为：%d\n", pc->price);*/
 
 	/*   b1.price = 15;           修改价格
-		 strcpy(b1.name, "C++");  修改书名       */
+	     strcpy(b1.name, "C++");  修改书名       */
 	return 0;
 }
