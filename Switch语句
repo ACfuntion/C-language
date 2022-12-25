@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+	int n = 1;
+	int m = 2;
+	switch (n)//以n的值为入口
+	{
+	case 1:n++;
+	case 2:m++;
+	case 3:
+		switch (n)//switch语句以n为入口，此时n变为2，因此会直接执行case 2，不会执行case 1
+		{
+		case 1:n++;
+		case 2:m++;
+			break;
+		}
+	default:
+		break;
+	}
+	printf("m=%d,n=%d\n",m, n);
+	return 0;
+
+}
