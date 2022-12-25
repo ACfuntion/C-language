@@ -7,9 +7,9 @@ int main()
 		 num++;
 
 		 if (num % 2 ==1)
-			 printf("num = %d,ÆæÊý\n", num);
+			 printf("num = %d,Ã†Ã¦ÃŠÃ½\n", num);
 		 else
-			 printf("num = %d,Å¼Êý\n", num);
+			 printf("num = %d,Ã…Â¼ÃŠÃ½\n", num);
 	 }
 	return 0;
 
