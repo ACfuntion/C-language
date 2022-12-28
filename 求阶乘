@@ -8,13 +8,13 @@ int main()
 	/*scanf("%d", &n);
 	for (i = 1; i <= n; i++)
 	{
-		ret = ret * i;              ÇónµÄ½×³Ë£ºn£¡
+		ret = ret * i;              æ±‚nçš„é˜¶ä¹˜ï¼šnï¼
 	}
 	printf("%d\n", ret);*/
 	int sum = 0;
 	for (n = 1; n <= 10; n++)
 	{
-		ret = ret * n;                //Çó¸÷½×³ËµÄÏà¼Ó£º1£¡+2£¡+3£¡+.....
+		ret = ret * n;                //æ±‚å„é˜¶ä¹˜çš„ç›¸åŠ ï¼š1ï¼+2ï¼+3ï¼+.....
 		sum = sum + ret;
 	}
 	printf("%d\n", sum);
