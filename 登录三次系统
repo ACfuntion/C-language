@@ -8,22 +8,22 @@ int main()
 	
 	for (i = 0; i < 3; i++)
 	{
-		printf("ÇëÊäÈëÃÜÂë:");
+		printf("è¯·è¾“å…¥å¯†ç :");
 		scanf("%s", &password);
 		if (strcmp(password, "123456") == 0)
 		{
-			printf("ÃÜÂëÊäÈëÕýÈ·\n");
+			printf("å¯†ç è¾“å…¥æ­£ç¡®\n");
 			break;
 
 		}
 
 		else
 		{
-			printf("ÃÜÂë´íÎó\n");
+			printf("å¯†ç é”™è¯¯\n");
 		}
 	}
 	if (i == 3)
-		printf("Èý´ÎÃÜÂëÊäÈë´íÎó£¬ÍË³ö³ÌÐò\n");
+		printf("ä¸‰æ¬¡å¯†ç è¾“å…¥é”™è¯¯ï¼Œé€€å‡ºç¨‹åº\n");
 
 	return 0;
 }
