@@ -10,7 +10,7 @@ int main()
 	{
 		printf("请输入密码:");
 		scanf("%s", &password);
-		if (strcmp(password, "123456") == 0)
+		if （strcmp（password， “123456”） == 0） //判断字符串相等用strcmp
 		{
 			printf("密码输入正确\n");
 			break;
